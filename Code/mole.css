@@ -1,0 +1,132 @@
+body{
+  user-select: none; /*Make the words can't be selected*/
+}
+
+#mainMenu{
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+/*Head Words*/
+#headWords{
+  /*background-color: blue;*/
+  width: 800px;
+  height: 200px;
+}
+
+#head-head{
+  /*background-color: purple;*/
+  width: 800px;
+  height: 40px;
+}
+#head-head>h1{
+  text-align: center;
+}
+
+#head-p{
+  /*background-color: yellow;*/
+  width: 800px;
+  height: 160px;
+  overflow: hidden;
+}
+#top-P{
+  /*background-color: skyblue;*/
+  height: 60px;
+}
+#gameControl, #TimeCount, #gameState, #scoreNum{
+  border: 1px solid black;
+  display: inline-block;/*Block Make the span's width changable
+                          And inline make it not to occupy all the line*/
+}
+
+#lineOne{
+  /*background-color: gold;*/
+  height: 30px;
+}
+#gameControl{
+  padding: 0px;
+  width: 210px;
+  text-align: center;
+  transform: translateX(-80px);
+}
+#TimeCount{
+  width: 60px;
+}
+
+#lineTwo{
+  /*background-color: grey;*/
+  height: 70px;
+}
+#gameState{
+  width: 193px;
+  text-align: center;
+  transform: translateX(-86px);
+}
+#scoreNum{
+  width: 60px;
+  transform: translateX(6px);
+}
+
+#lineOne, #lineTwo{
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/*Game Screen*/
+#gameScreen{
+  /*background-color: green;*/
+  width: 800px;
+  height: 280px;
+  overflow: hidden;
+}
+#gameBorder{
+  /*background-color: rgb(255, 0, 0);*/
+  width: 400px;
+  height: 270px;
+  margin: auto;
+  margin-top: 2.5px;
+  overflow: hidden;
+  border-width: 2px 0px 2px 0px;
+  border-style: solid;
+  border-color: black;
+  transform: translateX(-38px);
+}
+#gameBorder>.space{
+  height: 6px;
+}
+#gameBorder>.line{
+  text-align: center;
+  height: 41px;
+  overflow: hidden;
+}
+ul{
+  padding: 0px;
+  letter-spacing: 0.5em;
+}
+.mole{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: thin solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*Last Words*/
+#lastWords{
+  /*background-color: orange;*/
+  width: 800px;
+  height: 120px;
+  overflow: hidden;
+}
+#lastWords>ol>span{
+  font-weight: bold;
+}
+#lastWords>ol>li{
+  transform: translateX(2em);
+}
